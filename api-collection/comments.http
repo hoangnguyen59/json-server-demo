@@ -1,0 +1,48 @@
+@baseUrl = http://localhost:3000/api
+
+@sourceName = comments
+
+# Posts
+
+# @name getAllPosts
+GET {{baseUrl}}/{{sourceName}}
+
+###
+
+# @name addNewPosts
+
+POST {{baseUrl}}/{{sourceName}}
+Content-Type: application/json
+
+{
+    "title": "Hoang Nguyen",
+    "author": "Pro"
+}
+
+###
+# lay price >= 900
+GET {{baseUrl}}/{{sourceName}}?price_gte=900
+
+# lay trang 1 va gioi han 20 object
+GET {{baseUrl}}/{{sourceName}}?_page=1&_limit=20
+
+# sap xep theo thu tu tang dan
+GET {{baseUrl}}/{{sourceName}}?_sort=price&_order=asc
+
+###
+
+# @name updatePosts
+
+PATCH {{baseUrl}}/{{sourceName}}/2
+Content-Type: application/json
+
+{
+    "title": "Hoang Nguyen PPP",
+    "author": "Pro 333"
+}
+
+###
+
+# @name removePosts
+
+DELETE {{baseUrl}}/{{sourceName}}/2

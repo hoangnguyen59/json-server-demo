@@ -1,0 +1,45 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "title": "Hoang Nguyen",
+      "author": "Pro",
+      "createdAt": 1655172029859,
+      "updatedAt": 1655172029859,
+      "id": 2
+    },
+    {
+      "title": "Hoang Nguyen",
+      "author": "Pro",
+      "createdAt": 1655172034627,
+      "updatedAt": 1655172034627,
+      "id": 3
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    },
+    {
+      "title": "Hoang Nguyen",
+      "author": "Pro",
+      "createdAt": 1655176962307,
+      "updatedAt": 1655176962307,
+      "id": 2
+    },
+    {
+      "createdAt": 1655177254625,
+      "updatedAt": 1655177254625,
+      "id": 3
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
