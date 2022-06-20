@@ -1,45 +1,317 @@
 {
-  "posts": [
+  "flights": [
     {
       "id": 1,
-      "title": "json-server",
-      "author": "typicode"
+      "name": "Hawaiian Airlines",
+      "code": "FIG4312",
+      "waitingTime": "16h 45m",
+      "flightTime": "7:00AM - 4:15PM",
+      "reserve": "",
+      "process": "1 stop",
+      "processTime": "2h 45m in HNL",
+      "price": "$624",
+      "numberOfRounds": "round trip",
+      "logo": "https://i.ibb.co/997xJqV/fly1.png"
     },
     {
-      "title": "Hoang Nguyen",
-      "author": "Pro",
-      "createdAt": 1655172029859,
-      "updatedAt": 1655172029859,
-      "id": 2
+      "id": 2,
+      "name": "Japan Airlines",
+      "code": "JPG4412",
+      "waitingTime": "18h 22m",
+      "flightTime": "7:35 AM - 12:15 PM",
+      "reserve": "",
+      "process": "1 stop",
+      "processTime": "50m in HKG",
+      "price": "$663",
+      "numberOfRounds": "round trip",
+      "logo": "https://i.ibb.co/h1CZNXQ/fly2.png"
     },
     {
-      "title": "Hoang Nguyen",
-      "author": "Pro",
-      "createdAt": 1655172034627,
-      "updatedAt": 1655172034627,
-      "id": 3
+      "id": 3,
+      "name": "Hawaiian Airlines",
+      "code": "FIG4312",
+      "waitingTime": "18h 04m",
+      "flightTime": "8:20 AM - 2:15 PM",
+      "reserve": "",
+      "process": "1 stop",
+      "processTime": "1h 50m in PVG",
+      "price": "$690",
+      "numberOfRounds": "round trip",
+      "logo": "https://i.ibb.co/997xJqV/fly1.png"
+    },
+    {
+      "id": 4,
+      "name": "Delta",
+      "code": "DIG4512",
+      "waitingTime": "18h 52m",
+      "flightTime": "9:47 AM - 4:15 PM",
+      "reserve": "",
+      "process": "1 stop",
+      "processTime": "4h 05m in ICN",
+      "price": "$756",
+      "numberOfRounds": "round trip",
+      "logo": "https://i.ibb.co/WcJcqLV/fly3.png"
+    },
+    {
+      "id": 5,
+      "name": "Hawaiian Airlines",
+      "code": "FIG4332",
+      "waitingTime": "16h 05m",
+      "flightTime": "11:15 AM - 7:45 PM",
+      "reserve": "",
+      "process": "Nonstop",
+      "processTime": "",
+      "price": "$837",
+      "numberOfRounds": "round trip",
+      "logo": "https://i.ibb.co/qpDSY17/fly4.png"
+    },
+    {
+      "id": 6,
+      "name": "Hawaiian Airlines",
+      "code": "FIG4632",
+      "waitingTime": "15h 45m",
+      "flightTime": "10:55 AM - 8:15 PM",
+      "reserve": "",
+      "process": "Nonstop",
+      "processTime": "",
+      "price": "$839",
+      "numberOfRounds": "round trip",
+      "logo": "https://i.ibb.co/09SbffF/fly5.png"
+    },
+    {
+      "id": 7,
+      "name": "Delta",
+      "code": "DIG4512",
+      "waitingTime": "18h 20m",
+      "flightTime": "1:00 PM - 9:15 PM",
+      "reserve": "",
+      "process": "1 stop",
+      "processTime": "4h 45m in ICN",
+      "price": "$886",
+      "numberOfRounds": "round trip",
+      "logo": "https://i.ibb.co/WcJcqLV/fly3.png"
+    },
+    {
+      "id": 8,
+      "name": "EVA Air",
+      "code": "EVG4712",
+      "waitingTime": "18h 55m",
+      "flightTime": "2:15 PM - 11:15 PM",
+      "reserve": "",
+      "process": "1 stop",
+      "processTime": "2h 45m in HNL",
+      "price": "$913",
+      "numberOfRounds": "round trip",
+      "logo": "https://i.ibb.co/MPLzbsT/fly6.png"
+    },
+    {
+      "id": 9,
+      "name": "Korean Air",
+      "code": "KRG4812",
+      "waitingTime": "22h 37m",
+      "flightTime": "6:45 PM - 7:15 PM",
+      "reserve": "Arrives next day",
+      "process": "2 stop",
+      "processTime": "2h 45m in PVG...",
+      "price": "$989",
+      "numberOfRounds": "round trip",
+      "logo": "https://i.ibb.co/7Sm0PDc/fly7.png"
+    },
+    {
+      "id": 10,
+      "name": "Japan Airlines",
+      "code": "JPG4412",
+      "waitingTime": "20h 23m",
+      "flightTime": "7:00AM - 4:15PM",
+      "reserve": "Arrives next day",
+      "process": "2 stop",
+      "processTime": "2h 45m in HKG...",
+      "price": "$624",
+      "numberOfRounds": "round trip",
+      "logo": "https://i.ibb.co/h1CZNXQ/fly2.png"
+    },
+    {
+      "id": 11,
+      "name": "Japan Airlines",
+      "code": "JPG4413",
+      "waitingTime": "16h 45m",
+      "flightTime": "7:00AM - 4:15PM",
+      "reserve": "Arrives next day",
+      "process": "Nonstop",
+      "processTime": "",
+      "price": "$1,079",
+      "numberOfRounds": "round trip",
+      "logo": "https://i.ibb.co/h1CZNXQ/fly2.png"
+    },
+    {
+      "id": 12,
+      "name": "EVA Air",
+      "code": "EVG4712",
+      "waitingTime": "16h 10m",
+      "flightTime": "7:00AM - 4:15PM",
+      "reserve": "",
+      "process": "Nonstop",
+      "processTime": "",
+      "price": "$1,114",
+      "numberOfRounds": "round trip",
+      "logo": "https://i.ibb.co/MPLzbsT/fly6.png"
+    },
+    {
+      "id": 13,
+      "name": "Korean Air",
+      "code": "KRG4812",
+      "waitingTime": "14h 37m",
+      "flightTime": "7:20 AM - 1:15 PM",
+      "reserve": "value",
+      "process": "Nonstop",
+      "processTime": "",
+      "price": "$1,347",
+      "numberOfRounds": "round trip",
+      "logo": "https://i.ibb.co/7Sm0PDc/fly7.png"
+    },
+    {
+      "id": 14,
+      "name": "Air France",
+      "code": "FRG5112",
+      "waitingTime": "19h 45m",
+      "flightTime": "9:00AM - 1:15PM",
+      "reserve": "value",
+      "process": "1 stop",
+      "processTime": "5h 45m in HNL",
+      "price": "$1,392",
+      "numberOfRounds": "round trip",
+      "logo": "https://i.ibb.co/8m7g1qr/fly9.png"
+    },
+    {
+      "id": 15,
+      "name": "Emirates",
+      "code": "EIG4912",
+      "waitingTime": "16h 55m",
+      "flightTime": "7:10AM - 4:35PM",
+      "reserve": "value",
+      "process": "1 stop",
+      "processTime": "2h 45m in HKG",
+      "price": "$1,403",
+      "numberOfRounds": "round trip",
+      "logo": "https://i.ibb.co/n0mfQTS/fly8.png"
     }
   ],
-  "comments": [
+  "places": [
     {
       "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "name": "Shanghai",
+      "title": "The Bund",
+      "price": "$598",
+      "desciption": "China’s most international city",
+      "image": "https://i.ibb.co/YkVfg4C/img1.png"
+
     },
     {
-      "title": "Hoang Nguyen",
-      "author": "Pro",
-      "createdAt": 1655176962307,
-      "updatedAt": 1655176962307,
-      "id": 2
+      "id": 2,
+      "name": "Sydney",
+      "title": "Sydney Opera House",
+      "price": "$981",
+      "desciption": "Take a stroll along the famous harbor",
+      "image": "https://i.ibb.co/T8TNz90/img2.png"
     },
     {
-      "createdAt": 1655177254625,
-      "updatedAt": 1655177254625,
-      "id": 3
+      "id": 3,
+      "name": "Kyoto",
+      "title": "Kōdaiji Temple",
+      "price": "$633",
+      "desciption": "Step back in time in the Gion district",
+      "image": "https://i.ibb.co/7R032kv/img3.png"
+    },
+    {
+      "id": 4,
+      "name": "Kenya",
+      "title": "Tsavo East National Park",
+      "price": "$1,248",
+      "desciption": "Named after the Tsavo River, and opened in April 1984, Tsavo East National Park is one of the oldest parks in Kenya. It is located in the semi-arid Taru Desert.",
+      "image": "https://i.ibb.co/k83hhwZ/img4.png"
+    },
+    {
+      "id": 5,
+      "name": "Kenya",
+      "title": "Nairobi",
+      "price": "$1,248",
+      "desciption": "Dubbed the Safari Capital of the World",
+      "image": "https://i.ibb.co/pyHvJwK/img11.png"
+    },
+    {
+      "id": 6,
+      "name": "South Korea",
+      "title": "Seoul",
+      "price": "$589",
+      "desciption": "This modern city is a traveler’s dream",
+      "image": "https://i.ibb.co/7CCd2dQ/img12.png"
     }
   ],
-  "profile": {
-    "name": "typicode"
-  }
+  "homestays": [
+    {
+      "id": 1,
+      "name": "Maldives",
+      "title": "Stay among the atolls in ",
+      "desciption": "From the 2nd century AD, the islands were known as the 'Money Isles' due to the abundance of cowry shells, a currency of the early ages.",
+      "image": "https://i.ibb.co/Lp01bfW/img5.png"
+    },
+    {
+      "id": 2,
+      "name": "Morocco",
+      "title": "Experience the Ourika Valley in ",
+      "desciption": "Morocco’s Hispano-Moorish architecture blends influences from Berber culture, Spain, and contemporary artistic currents in the Middle East.",
+      "image": "https://i.ibb.co/Fnmv0XY/img6.png"
+    },
+    {
+      "id": 3,
+      "name": "Mongolia",
+      "title": "Live traditionally in ",
+      "desciption": "Traditional Mongolian yurts consists of an angled latticework of wood or bamboo for walls, ribs, and a wheel.",
+      "image": "https://i.ibb.co/CPgBpCC/img7.png"
+    }
+  ],
+  "cities": [
+    {
+      "id": 1,
+      "title": "Hotel Kaneyamaen and Bessho SASA",
+      "desciption": "Located at the base of Mount Fuji, Hotel Kaneyamaen is a traitional japanese ryokan with a modern twist. Enjoy a private onsen bath and a private multi-course kaiseki dinner.",
+      "image": "https://i.ibb.co/br1bkjp/img8.png",
+      "placeId": 3
+    },
+    {
+      "id": 2,
+      "title": "HOTEL THE FLAG 大阪市",
+      "desciption": "Make a stop in Osaka and stay at HOTEL THE FLAG, just a few minutes walk to experience the food culture surrounding Dontonbori. Just one minute away is the Shinsaibashi shopping street.",
+      "image": "https://i.ibb.co/Jtm1fZw/img9.png",
+      "placeId": 3
+    },
+    {
+      "id": 3,
+      "title": "9 Hours Shinjuku",
+      "desciption": "Experience a truly unique stay in an authentic Japanese capsule hotel. 9 Hours Shinjuku is minutes from one of Japan’s busiest train stations. Just take the NEX train from Narita airport!",
+      "image": "https://i.ibb.co/848pS0F/img10.png",
+      "placeId": 3
+    },
+    {
+      "id": 4,
+      "title": "Hotel Kaneyamaen and Bessho SASA",
+      "desciption": "Located at the base of Mount Fuji, Hotel Kaneyamaen is a traitional japanese ryokan with a modern twist. Enjoy a private onsen bath and a private multi-course kaiseki dinner.",
+      "image": "https://i.ibb.co/br1bkjp/img8.png",
+      "placeId": 7
+    },
+    {
+      "id": 5,
+      "title": "HOTEL THE FLAG 大阪市",
+      "desciption": "Make a stop in Osaka and stay at HOTEL THE FLAG, just a few minutes walk to experience the food culture surrounding Dontonbori. Just one minute away is the Shinsaibashi shopping street.",
+      "image": "https://i.ibb.co/Jtm1fZw/img9.png",
+      "placeId": 7
+    },
+    {
+      "id": 6,
+      "title": "9 Hours Shinjuku",
+      "desciption": "Experience a truly unique stay in an authentic Japanese capsule hotel. 9 Hours Shinjuku is minutes from one of Japan’s busiest train stations. Just take the NEX train from Narita airport!",
+      "image": "https://i.ibb.co/848pS0F/img10.png",
+      "placeId": 7
+    }
+  ]
 }
