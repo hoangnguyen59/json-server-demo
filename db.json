@@ -202,7 +202,7 @@
       "name": "Shanghai",
       "title": "The Bund",
       "price": "$598",
-      "desciption": "China’s most international city",
+      "description": "China’s most international city",
       "image": "https://i.ibb.co/YkVfg4C/img1.png"
 
     },
@@ -211,7 +211,7 @@
       "name": "Sydney",
       "title": "Sydney Opera House",
       "price": "$981",
-      "desciption": "Take a stroll along the famous harbor",
+      "description": "Take a stroll along the famous harbor",
       "image": "https://i.ibb.co/T8TNz90/img2.png"
     },
     {
@@ -219,7 +219,7 @@
       "name": "Kyoto",
       "title": "Kōdaiji Temple",
       "price": "$633",
-      "desciption": "Step back in time in the Gion district",
+      "description": "Step back in time in the Gion district",
       "image": "https://i.ibb.co/7R032kv/img3.png"
     },
     {
@@ -227,7 +227,7 @@
       "name": "Kenya",
       "title": "Tsavo East National Park",
       "price": "$1,248",
-      "desciption": "Named after the Tsavo River, and opened in April 1984, Tsavo East National Park is one of the oldest parks in Kenya. It is located in the semi-arid Taru Desert.",
+      "description": "Named after the Tsavo River, and opened in April 1984, Tsavo East National Park is one of the oldest parks in Kenya. It is located in the semi-arid Taru Desert.",
       "image": "https://i.ibb.co/k83hhwZ/img4.png"
     },
     {
@@ -235,7 +235,7 @@
       "name": "Kenya",
       "title": "Nairobi",
       "price": "$1,248",
-      "desciption": "Dubbed the Safari Capital of the World",
+      "description": "Dubbed the Safari Capital of the World",
       "image": "https://i.ibb.co/pyHvJwK/img11.png"
     },
     {
@@ -243,7 +243,7 @@
       "name": "South Korea",
       "title": "Seoul",
       "price": "$589",
-      "desciption": "This modern city is a traveler’s dream",
+      "description": "This modern city is a traveler’s dream",
       "image": "https://i.ibb.co/7CCd2dQ/img12.png"
     }
   ],
@@ -252,21 +252,21 @@
       "id": 1,
       "name": "Maldives",
       "title": "Stay among the atolls in ",
-      "desciption": "From the 2nd century AD, the islands were known as the 'Money Isles' due to the abundance of cowry shells, a currency of the early ages.",
+      "description": "From the 2nd century AD, the islands were known as the 'Money Isles' due to the abundance of cowry shells, a currency of the early ages.",
       "image": "https://i.ibb.co/Lp01bfW/img5.png"
     },
     {
       "id": 2,
       "name": "Morocco",
       "title": "Experience the Ourika Valley in ",
-      "desciption": "Morocco’s Hispano-Moorish architecture blends influences from Berber culture, Spain, and contemporary artistic currents in the Middle East.",
+      "description": "Morocco’s Hispano-Moorish architecture blends influences from Berber culture, Spain, and contemporary artistic currents in the Middle East.",
       "image": "https://i.ibb.co/Fnmv0XY/img6.png"
     },
     {
       "id": 3,
       "name": "Mongolia",
       "title": "Live traditionally in ",
-      "desciption": "Traditional Mongolian yurts consists of an angled latticework of wood or bamboo for walls, ribs, and a wheel.",
+      "description": "Traditional Mongolian yurts consists of an angled latticework of wood or bamboo for walls, ribs, and a wheel.",
       "image": "https://i.ibb.co/CPgBpCC/img7.png"
     }
   ],
@@ -274,44 +274,70 @@
     {
       "id": 1,
       "title": "Hotel Kaneyamaen and Bessho SASA",
-      "desciption": "Located at the base of Mount Fuji, Hotel Kaneyamaen is a traitional japanese ryokan with a modern twist. Enjoy a private onsen bath and a private multi-course kaiseki dinner.",
+      "description": "Located at the base of Mount Fuji, Hotel Kaneyamaen is a traitional japanese ryokan with a modern twist. Enjoy a private onsen bath and a private multi-course kaiseki dinner.",
       "image": "https://i.ibb.co/br1bkjp/img8.png",
       "placeId": 3
     },
     {
       "id": 2,
       "title": "HOTEL THE FLAG 大阪市",
-      "desciption": "Make a stop in Osaka and stay at HOTEL THE FLAG, just a few minutes walk to experience the food culture surrounding Dontonbori. Just one minute away is the Shinsaibashi shopping street.",
+      "description": "Make a stop in Osaka and stay at HOTEL THE FLAG, just a few minutes walk to experience the food culture surrounding Dontonbori. Just one minute away is the Shinsaibashi shopping street.",
       "image": "https://i.ibb.co/Jtm1fZw/img9.png",
       "placeId": 3
     },
     {
       "id": 3,
       "title": "9 Hours Shinjuku",
-      "desciption": "Experience a truly unique stay in an authentic Japanese capsule hotel. 9 Hours Shinjuku is minutes from one of Japan’s busiest train stations. Just take the NEX train from Narita airport!",
+      "description": "Experience a truly unique stay in an authentic Japanese capsule hotel. 9 Hours Shinjuku is minutes from one of Japan’s busiest train stations. Just take the NEX train from Narita airport!",
       "image": "https://i.ibb.co/848pS0F/img10.png",
       "placeId": 3
     },
     {
       "id": 4,
       "title": "Hotel Kaneyamaen and Bessho SASA",
-      "desciption": "Located at the base of Mount Fuji, Hotel Kaneyamaen is a traitional japanese ryokan with a modern twist. Enjoy a private onsen bath and a private multi-course kaiseki dinner.",
+      "description": "Located at the base of Mount Fuji, Hotel Kaneyamaen is a traitional japanese ryokan with a modern twist. Enjoy a private onsen bath and a private multi-course kaiseki dinner.",
       "image": "https://i.ibb.co/br1bkjp/img8.png",
       "placeId": 7
     },
     {
       "id": 5,
       "title": "HOTEL THE FLAG 大阪市",
-      "desciption": "Make a stop in Osaka and stay at HOTEL THE FLAG, just a few minutes walk to experience the food culture surrounding Dontonbori. Just one minute away is the Shinsaibashi shopping street.",
+      "description": "Make a stop in Osaka and stay at HOTEL THE FLAG, just a few minutes walk to experience the food culture surrounding Dontonbori. Just one minute away is the Shinsaibashi shopping street.",
       "image": "https://i.ibb.co/Jtm1fZw/img9.png",
       "placeId": 7
     },
     {
       "id": 6,
       "title": "9 Hours Shinjuku",
-      "desciption": "Experience a truly unique stay in an authentic Japanese capsule hotel. 9 Hours Shinjuku is minutes from one of Japan’s busiest train stations. Just take the NEX train from Narita airport!",
+      "description": "Experience a truly unique stay in an authentic Japanese capsule hotel. 9 Hours Shinjuku is minutes from one of Japan’s busiest train stations. Just take the NEX train from Narita airport!",
       "image": "https://i.ibb.co/848pS0F/img10.png",
       "placeId": 7
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "name": "Yifei Chen",
+      "country":"Seoul, South Korea | April 2019",
+      "star": 5,
+      "description": "What a great experience using Tripma! I booked all of my flights for my gap year through Tripma and never had any issues. When I had to cancel a flight because of an emergency, Tripma support helped me ",
+      "avatar": "https://i.ibb.co/JccTMfb/avatar1.png"
+    },
+    {
+      "id": 2,
+      "name": "Kaori Yamaguchi",
+      "country":"Honolulu, Hawaii | February 2017",
+      "star": 4,
+      "description": "My family and I visit Hawaii every year, and we usually book our flights using other services. Tripma was recommened to us by a long time friend, and I’m so glad we tried it out! The process was easy and ",
+      "avatar": "https://i.ibb.co/7NpHX26/avatar-2.png"
+    },
+    {
+      "id": 3,
+      "name": "Anthony Lewis",
+      "country":"Berlin, Germany | April 2019",
+      "star": 5,
+      "description": "When I was looking to book my flight to Berlin from LAX, Tripma had the best browsing experiece so I figured I’d give it a try. It was my first time using Tripma, but I’d definitely recommend it to a friend and use it for ",
+      "avatar": "https://i.ibb.co/mrnrZfW/avatar-3.png"
     }
   ]
 }
